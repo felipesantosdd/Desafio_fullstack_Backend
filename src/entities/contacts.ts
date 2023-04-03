@@ -19,7 +19,7 @@ export class Contact {
     @CreateDateColumn()
     createdAt: Date;
 
-    @ManyToOne(() => User, (user) => user.contact, { nullable: true })
+    @ManyToOne(() => User, (user) => user.contact, { nullable: false })
     user: User;
 
 }

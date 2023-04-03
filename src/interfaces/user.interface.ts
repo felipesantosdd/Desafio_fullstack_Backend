@@ -25,3 +25,8 @@ export interface IUserResponse {
     createdAt: Date;
     contacts?: IContact[]
 }
+
+export interface ILoginRequest {
+    email: string;
+    password: string;
+}
