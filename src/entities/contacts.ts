@@ -14,7 +14,7 @@ export class Contact {
     email: string;
 
     @Column()
-    phone: number;
+    phone: string;
 
     @CreateDateColumn()
     createdAt: Date;
