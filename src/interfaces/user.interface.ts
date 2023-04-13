@@ -21,7 +21,7 @@ export interface IUserResponse {
     id: string;
     name: string;
     email: string;
-    phone: number;
+    phone: string;
     createdAt: Date;
     contacts?: IContact[]
 }

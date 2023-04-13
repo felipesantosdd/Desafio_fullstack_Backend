@@ -1,8 +1,9 @@
 import { Router } from "express";
-import { LoginController } from "../controllers/session.Controller";
+import { LoginController, tokenValidateController } from "../controllers/session.Controller";
 
 
 
 export const SessionRoutes = Router()
 
 SessionRoutes.post('', LoginController)
+SessionRoutes.post('/validate', tokenValidateController)
