@@ -1,6 +1,6 @@
 # Desafio-Fullstack
 # Para Rodar o projeto...
-inicie com o comando de instalação Yarn
+clone o repositorio e inicie com o comando de instalação Yarn e rode as migrations com o comando yarn typeorm migration:run -d src/data-source.
 depois é so executar o comando yarn dev para rodar a aplicação.
 
 # Dentro da aplicação
